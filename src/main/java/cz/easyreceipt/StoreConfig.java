@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Properties;
-
+// jmeno, adresa, ico a mena obchodu
 public class StoreConfig {
     private final String name;
     private final String address;
@@ -23,7 +23,7 @@ public class StoreConfig {
         Properties properties = new Properties();
         try (InputStream input = Files.newInputStream(path)) {
             properties.load(input);
-        }
+        } //nesmi byt null
         return new StoreConfig(
                 required(properties, "name"),
                 required(properties, "address"),
