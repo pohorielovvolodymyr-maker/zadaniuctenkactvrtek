@@ -5,7 +5,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+//v teto tride se spousti program
 public class Main {
     public static void main(String[] args) {
         System.out.println("EasyReceipt 1.0.0");
