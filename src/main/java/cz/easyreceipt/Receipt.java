@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDateTime;
 import java.util.List;
-
+//trida Receipt
 public class Receipt {
     private final String receiptNumber;
     private final LocalDateTime dateTime;
